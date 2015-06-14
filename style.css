@@ -1,0 +1,39 @@
+/*
+Theme Name: Disc Music Theme
+Theme URI: https://demo.test
+Author: Megane Team
+Author URI: https://wordpress.org/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: disc, music, labels, sounds
+Text Domain: discmusic
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+  padding-top: 50px;
+  background-color: black;
+  color: white;
+}
+
+.home .img-responsive{
+  width: 100%;
+}
+
+.home .home-element{
+  position: relative;
+}
+.home .home-content{
+  position: absolute;
+  bottom: 15%;
+  text-align: center;
+  color: white;
+}
+
+.articles-list .article-content .wp-post-image{
+  padding: 20px;
+}
